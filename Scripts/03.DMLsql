@@ -1,0 +1,11 @@
+select user(), database();
+
+show tables;
+desc disease;
+insert into disease values('A01','뇌졸증','어지럼증' );
+desc patient;
+insert into patient values('P1001','김철수',30,'A01' );
+
+select *from disease ;
+select *from patient  ;
+

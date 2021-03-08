@@ -1,0 +1,50 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-1778aacc1f9-678a57cd5c005ea0": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 5.7",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		},
+		"mysql8-1778ae4b90c-3db4fd99c5a077ff": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "hospital(user_hospital)",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "hospital",
+				"url": "jdbc:mysql://localhost:3306/hospital",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 5.7",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
